@@ -1,0 +1,92 @@
+.main{
+    background-color: blueviolet;
+    height: 600px;
+    width: 1400px;
+}
+.r1{
+    background-image: url("fopdkgof.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 1000px;
+    position: absolute;
+   bottom: 16px;
+   left: 250px; 
+   font-size: 40PX;
+   color: white;
+
+}
+.r2{
+    background-image: url("jfhduhf.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width:400px;
+    position: absolute;
+    left: 540px;
+    bottom: 50px;
+    animation:float-phone 4s ease-in-out infinite ;
+}
+.r3{}
+    /*animation image */
+    @keyframes float-phone{
+        0%{
+            transform: translatey(0) rotate(15deg);
+        }
+        50%{
+            transform: translateY(-1.5rem) rotate(15deg);
+        }
+        
+    }
+    .list ul{
+        
+            list-style: none;
+            display: flex;
+            /* flex-direction: center; */
+            justify-content: right;
+            position: absolute;
+            left:40%;
+            bottom: 385px;
+    }
+    .list ul li{
+        margin: 15px;
+        font-size: 30px;
+     
+    }  
+    .r3{
+       font-size: 30px; 
+       position: absolute;
+       bottom: 300px;
+       left: 40px;
+    } 
+    .r4{
+        font-size: 20px;
+        position: absolute;
+        bottom: 180px;
+        left:40px
+    } 
+    .login{
+        position: absolute;
+        bottom: 120px;
+        left: 40px;
+        background-color: blueviolet;
+        height: 40px;
+        color: white;
+    }
+    .r7{
+        font-size: 30px;
+        position: absolute;
+        left: 350px;
+        bottom: 5px;
+
+    }
+    .r7 i{
+        margin: 15px;
+    }
+    .r6{
+        position: absolute;
+        left:40px;
+        bottom: 430px;
+    }
+            
+    
